@@ -10,7 +10,6 @@ test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
 
-Lalit bhai
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
 
